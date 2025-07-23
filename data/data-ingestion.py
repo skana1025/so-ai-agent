@@ -1,8 +1,8 @@
 import os
 from dotenv import load_dotenv
 from qdrant_client import QdrantClient
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Qdrant
+from langchain_openai.embeddings import OpenAIEmbeddings
+from langchain_qdrant import Qdrant
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from PyPDF2 import PdfReader
 

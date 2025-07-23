@@ -2,6 +2,9 @@ txt
 
 qdrant-client
 langchain
+langchain-community
+langchain-openai
+langchain-qdrant
 openai
-pypdf
+PyPDF2
 python-dotenv
