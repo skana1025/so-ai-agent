@@ -1,0 +1,7 @@
+txt
+
+qdrant-client
+langchain
+openai
+pypdf
+python-dotenv
