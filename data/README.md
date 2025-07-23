@@ -1,6 +1,22 @@
 
 About:
 
+# SO AI Agent 🤖
+
+An AI assistant for querying resources and knowledge.
+
+## Modules
+- `data/` – Python ingestion module (Confluence PDF → Qdrant vectors)
+- `backend/` – Java Spring Boot API (coming soon)
+- `frontend/` – Angular chat UI (coming soon)
+
+## Quick Start: Data Ingestion
+1. Copy `.env.example` to `.env` and fill in your API keys.
+2. Install Python dependencies:
+   ```bash
+   cd data
+   pip install -r requirements.txt
+
 
 DEVELOPER NOTES
 
