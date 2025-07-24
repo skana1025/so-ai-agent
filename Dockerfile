@@ -13,6 +13,9 @@ FROM maven:3.9.4-eclipse-temurin-17 AS backend-build
 
 WORKDIR /app
 COPY . .
+
+# change directory to backend
+WORKDIR /app/backend
 RUN mvn clean install -DskipTests
 
 # --------- Stage 3: Final container ---------
@@ -21,7 +24,7 @@ FROM eclipse-temurin:17-jdk AS final
 WORKDIR /app
 
 # Copy built Angular static files into Spring Boot's static path
-COPY --from=frontend-build /app/frontend/dist/frontend /app/static/
+COPY --from=frontend-build /app/frontend/dist/frontend/browser /app/static/
 
 # Copy the built backend JAR
 COPY --from=backend-build /app/backend/target/*.jar app.jar
