@@ -1,0 +1,20 @@
+<div class="chat-container">
+  <div class="chat-header">
+    💬 Solution Office AI Assistant
+  </div>
+
+  <div class="chat-messages">
+    <div *ngFor="let msg of messages" class="message" [ngClass]="msg.from">
+      <strong *ngIf="msg.from === 'user'">🧑 You:</strong>
+      <strong *ngIf="msg.from === 'ai'">🤖 Assistant:</strong>
+      <markdown [data]="msg.text"></markdown>
+    </div>
+    <div *ngIf="loading" class="message ai">🤖 AI is thinking...</div>
+    <div #messageEnd></div>
+  </div>
+
+  <form class="chat-input" (ngSubmit)="send()">
+    <input type="text" [(ngModel)]="input" name="question" placeholder="Ask me anything..." />
+    <button type="submit" [disabled]="loading || !input.trim()">Send</button>
+  </form>
+</div>

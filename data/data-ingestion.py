@@ -23,7 +23,7 @@ def extract_text_from_pdf(pdf_path):
             text += page_text + "\n"
     return text
 
-def chunk_text(text, chunk_size=500, overlap=50):
+def chunk_text(text, chunk_size=200, overlap=50):
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=overlap)
     return splitter.split_text(text)
 
@@ -42,7 +42,9 @@ def push_to_qdrant(chunks):
     # Create collection if it doesn't exist
     create_collection_if_not_exists(client, COLLECTION_NAME)
     vector_store = Qdrant(client=client, collection_name=COLLECTION_NAME, embeddings=embeddings)
-    vector_store.add_texts(chunks)
+    # 🆕 Add text payload metadata to each chunk
+    metadatas = [{"text": chunk} for chunk in chunks]
+    vector_store.add_texts(chunks, metadatas=metadatas)
     print(f"✅ Uploaded {len(chunks)} chunks to Qdrant collection: {COLLECTION_NAME}")
 
 def ingest_pdf(pdf_path):
