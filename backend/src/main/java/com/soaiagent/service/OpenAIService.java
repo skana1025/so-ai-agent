@@ -11,10 +11,10 @@ import java.util.Map;
 @Service
 public class OpenAIService {
 
-    @Value("${openai.api-key}")
+    @Value("${OPENAI_API_KEY:${openai.api-key:}}")
     private String openAiApiKey;
 
-    @Value("${openai.url}")
+    @Value("${OPENAI_URL:${openai.url:https://api.openai.com/v1/chat/completions}}")
     private String openAiUrl;
 
     private final RestTemplate restTemplate = new RestTemplate();
