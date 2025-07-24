@@ -1,0 +1,14 @@
+# render.yaml
+services:
+  - type: web
+    name: so-ai-agent
+    env: java
+    buildCommand: "mvn clean install -DskipTests"
+    startCommand: "java -jar target/*.jar"
+    envVars:
+      - key: JAVA_VERSION
+        value: 17
+      - key: openai.api-key
+        value: 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
+      - key: openai.url
+        value: https://api.openai.com/v1/chat/completions
