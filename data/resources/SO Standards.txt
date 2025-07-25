@@ -1,0 +1,529 @@
+# Business Processes
+## Point of Contact
+Multiple point of contacts
+##Description
+SO Business Processes and their guidelines
+## Topic
+### Communications and Presentation Templates
+#### Guidelines
+TBD
+#### Confluence Link
+No
+
+### Work Intake & Prioritization
+#### Guidelines
+TBD
+#### Confluence Link
+No
+
+### News Letter
+#### Guidelines
+TBD
+#### Confluence Link
+No
+
+### Ask the Expert
+#### Guidelines
+TBD
+#### Confluence Link
+No
+
+### CRD
+#### Guidelines
+TBD
+#### Confluence Link
+No
+
+### Product Consulting
+#### Guidelines
+TBD
+#### Confluence Link
+No
+
+### Risk & Governance
+#### Guidelines
+TBD
+#### Confluence Link
+https://sp.fmrcloud.com/sites/SolutionsOfficeRiskManagement/_layouts/15/AccessDenied.aspx?Source=https%3A%2F%2Fsp%2Efmrcloud%2Ecom%2Fsites%2FSolutionsOfficeRiskManagement%2FShared%20Documents%2FForms%2FAllItems%2Easpx%3Fcsf%3D1%26web%3D1%26e%3DbqBEuf%26CID%3Df9901c76%252D03e1%252D42eb%252Da37a%252Dbcd6ada06057%26FolderCTID%3D0x01200069D729A2B3BC7F47B70E6BCD41F3DAFA%26id%3D%252Fsites%252FSolutionsOfficeRiskManagement%252FShared%2520Documents%252FGeneral%252FRisk%2520Methodology&correlation=b3f8b4a1%2Da0d7%2D0000%2Dd60b%2De508e5363771&Type=item&name=87cf1bcd%2D8572%2D481e%2Dacf4%2D57fb5724bd47&listItemId=5&listItemUniqueId=f5f55b0b%2Deb5a%2D47c8%2D9f35%2D90b038cea593
+
+
+
+
+# Data Management
+## Point of Contact
+Frank DiBiase, Sravani Konda, Venkata Pavan Ella
+##Description
+No Description Yet. Coming Soon..
+
+
+
+
+# Data Virtualization
+## Point of Contact
+Terrance Tulloch, Stephen Griffin, John Anderson, Sravani Konda, Don Onnis
+##Description
+No Description Yet. Coming Soon..
+
+
+
+
+# Project Management Methodologies
+## Point of Contact
+TBD
+##Description
+No Description Yet. Coming Soon..
+
+
+
+
+# RPA
+## Point of Contact
+John Anderson
+##Description
+Robotic Process Automation and Guidelines:
+## Topic
+### RPA automation Guidelines
+#### Guidelines
+Here are the guidelines for RPA automation
+#### Confluence Link
+https://rpa.fmr.com/
+
+
+
+
+# Service accounts
+## Point of Contact
+TBD
+##Description
+Here are few guidelines on Service Accounts.
+## Topic
+### Naming conventions
+#### Guidelines
+Service accounts needs to maintain the following pattern. srv followed by app id followed by region/env.
+srvAPXXXXXXDEV, srvAPXXXXXXQA, srvAPXXXXXXUAT or srvAPXXXXXXPRD
+#### Confluence Link
+No
+
+### Maintenance/Ownership
+#### Guidelines
+The app id needs to be created or maintained by contacts listed in SNOW. It could be either technical lead or development manager.
+#### Confluence Link
+No
+
+### Creation of Service Account
+#### Guidelines
+Confluence page for creating  Service accounts for applications. Once the ACR is approved the submitter will receive a notification to copy the password from myaccess website.
+#### Confluence Link
+https://confluence.fmr.com/spaces/PR110904/pages/1501112275/Application+Service+Accounts+Creation+and+Update
+
+### Active directory groups
+#### Guidelines
+Creation of Active directory group:
+#### Confluence Link
+https://confluence.fmr.com/spaces/PR000601/pages/1375563929/How+to+Create+an+Active+Directory+Group
+
+Add users to Active directory group::
+#### Confluence Link
+https://confluence.fmr.com/spaces/PR175346/pages/892524055/Active+Directory+User+Creation
+
+
+
+
+# SO Business Routines
+## Point of Contact
+Heidi Wilson
+##Description
+No Description Yet. Coming Soon..
+## Topic
+### Learning Day
+## Confluence Link
+No
+
+### Connection Committee
+## Confluence Link
+No
+### Quarterly Planning
+### Confluence Link
+No
+### Quarterly All Associates Meeting Process
+### Confluence Link
+https://sp.fmrcloud.com/:w:/r/sites/OneSolutionsOffice/_layouts/15/Doc.aspx?sourcedoc=%7BF3BD7263-8929-4E83-9A93-3728229C70C7%7D&file=Solutions%20Office%20All%20Associates%20Procedures.docx&action=default&mobileredirect=true
+### Bi-Annual Customer Satisfaction Survey Process 
+### Confluence Link
+https://sp.fmrcloud.com/:w:/r/sites/OneSolutionsOffice/_layouts/15/Doc.aspx?sourcedoc=%7BF741A263-E2F2-47DA-B398-E9CD7A682972%7D&file=Solutions%20Office%20Customer%20Satisfaction%20Survey%20Procedures.docx&action=default&mobileredirect=true
+### Annual Hackathon
+### Confluence Link
+No
+
+
+
+
+# Software Development
+## Point of Contact
+Frank DiBiase, Sandeep Kanaparthi, Ramachandrareddy Kuchakulla
+##Description
+No Description Yet. Coming Soon..
+## Topic
+### Documentation
+###Description
+Solution office standard is to have the following mandatory topic documentation for every tool or application. 
+#### Sub Topic
+##### Introduction
+##### Guidelines
+All applications must have documentation of its overview, business problem statement, key features, functionality and target users group. 
+Please provide a link to access the application. 
+##### Confluence Link
+No
+
+##### Getting Access
+##### Guidelines
+Detail the steps for requesting access, any required permissions, and the process for approval. Include screenshots or links to relevant forms if applicable.
+##### Confluence Link
+No
+
+##### Governance & Oversight
+##### Guidelines
+Describe the roles and responsibilities of key stakeholders, any committees or boards involved, and the processes for decision-making and compliance.
+##### Confluence Link
+No
+
+##### Learn more about tool
+##### Guidelines
+Include links to tutorials, training materials, webinars, and other educational resources. Highlight any community forums or support channels available.
+##### Confluence Link
+No
+
+##### Architecture overview
+##### Guidelines
+Use diagrams to illustrate the system components and their interactions. Describe the main modules, data flow, and any external dependencies
+##### Confluence Link
+No
+
+##### Observability Dashboard
+##### Guidelines
+Provide instructions on accessing the dashboard, interpreting key metrics, and performance/ alerts. 
+##### Confluence Link
+No
+
+
+## Topic
+### Secure Coding Practices
+###Description
+To Solution Office standards, these guidelines outline essential secure coding practices to ensure the integrity, confidentiality, and security of our applications. 
+#### Sub Topic
+##### Input Validation
+##### Guidelines
+To prevent injection attacks, validate input length, format, and type; use whitelisting; sanitize inputs
+Please provide a link to access the application. 
+##### Confluence Link
+No
+
+##### Authentication & Authorization
+##### Guidelines
+Verify user identities and control access. Implement strong password policies; use MFA if required; ensure proper session management
+##### Confluence Link
+No
+
+##### Data Encryption
+##### Guidelines
+Protect sensitive data. Use strong encryption algorithms; encrypt data before storage; use TLS
+##### Confluence Link
+No
+
+##### Error Handling
+##### Guidelines
+Prevent information leakage. Avoid detailed error messages; log errors securely; provide user-friendly messages
+##### Confluence Link
+No
+
+##### Secure Dependencies
+##### Guidelines
+Manage third-party libraries securely. Regularly update dependencies; use trusted sources; monitor for vulnerabilities
+##### Confluence Link
+No
+
+##### Code Reviews & Testing
+##### Guidelines
+Identify and fix security issues early. Conduct regular code reviews; use automated testing tools; perform penetration testing
+##### Confluence Link
+No
+
+##### Sensitive Information
+##### Guidelines
+Protect sensitive information from exposure.
+
+Do not hardcode passwords, client secrets, tokens, etc., in the repository
+
+Store all usernames, passwords, tokens, and client secrets in HashiCorp Vault
+
+Store and read all pipeline credentials in JC Vault
+## Confluence Link
+No
+
+
+## Topic
+### Architecture Guidelines
+###Description
+Per Solution Office Standards, all applications must adhere to the following architectural guidelines. 
+#### Sub Topic
+##### Azure AD SSO Integration
+##### Guidelines
+All applications must be integrated with Azure AD for SSO to allow only authenticated users to access our applications. Please use this link for more details: 
+##### Confluence Link
+https://confluence.fmr.com/pages/viewpage.action?spaceKey=PR000587&title=Azure+AD+for+SSO+integration+-+OpenID+Connect
+
+##### Developer toolkit overview
+##### Guidelines
+WI Architecture has proposed all teams to use developer toolkit as the standard framework for all Spring boot apps. Below link provides complete information on developer toolkit.
+##### Confluence Link
+https://confluence.fmr.com/spaces/AP140015/pages/868380423/Developer+Toolkit+Overview
+
+##### Developer toolkit developer setup guide
+##### Guidelines
+This link provides step by step instructions for developers to setup a new application with toolkit framework.
+For developer tool kit provided libraries, please go through
+##### Confluence Link
+https://confluence.fmr.com/spaces/AP140015/pages/781429666/Guides+for+Developing+WI+Applications
+##### Guidelines
+For developer tool kit provided libraries, please go through
+##### Confluence Link
+https://confluence.fmr.com/spaces/AP140015/pages/781429591/Libraries
+
+##### Developer toolkit framework for logs
+##### Guidelines
+Toolkit logging library supported by developer toolkit
+Note: As a standard all teams must use the combination of FID_USER_ID + FID_LOG_TRACKING_ID as the correlation id for info logs.
+##### Confluence Link
+https://confluence.fmr.com/spaces/AP140015/pages/780285433/dp-logging-support
+
+##### Apex front-end framework - Angular
+##### Guidelines
+WI Architecture supports Apex framework as a standard for all front-end apps using Angular. Below link provides guidelines on how to setup and build a UI app using apex.
+##### Confluence Link
+https://design.fmr.com/web-components/4.x/home/home.html
+
+##### Docker containerization
+##### Guidelines
+All apps must be dockerized to build, run and deploy to AKS/EKS 
+##### Confluence Link
+No
+
+##### Hashicorp vault
+##### Guidelines
+All sensitive information like credentials, tokens and secrets must be stored in vault using toolkit library dp-vault. More information can be found in the link below
+##### Confluence Link
+https://confluence.fmr.com/spaces/AP140015/pages/899603573/dp-vault
+
+##### Fidelity approved libraries
+##### Guidelines
+Using 3rd party license is allowed but it must be a fidelity approved libraries. Fidelity approved licenses can be found here:
+##### Confluence Link
+https://intelea.fmr.com/#/inner-open-source-solutions/iss
+
+
+## Topic
+### API Standards
+###Description
+SO standards for Secure API services and implementation guidelines. 
+#### Sub Topic
+##### REST services
+##### Guidelines
+All rest call must be secured. Here are the guidelines from ECS to follow.
+##### Confluence Link
+https://confluence.fmr.com/spaces/PR000587/pages/93952792/Securing+REST+Services
+##### Guidelines
+Implementing REST API Development using Developer Tool kit guidelines:
+##### Confluence Link
+https://confluence.fmr.com/spaces/AP140015/pages/807404235/Guide+-+REST+API+Development
+##### Guidelines
+Common components for Fidelity REST APIs. This includes API error codes, headers information, parameters etc.,
+##### Confluence Link
+https://swaggerhub.fmr.com/domains/Enterprise_Org/Enterprise-Common-Domain
+
+##### SOAP services
+##### Guidelines
+All SOAP service call must be secured. Here are the guidelines from ECS to follow. 
+##### Confluence Link
+https://confluence.fmr.com/spaces/PR000587/pages/89863292/Securing+SOAP+Services
+
+
+## Topic
+### Error handling and Logging Standards
+###Description
+SO standards for application error handling and application logs 
+#### Sub Topic
+##### HTTP Error codes
+##### Guidelines
+Here are the list of all error response code by WI Architecture and developer toolkit. 
+##### Confluence Link
+https://swaggerhub.fmr.com/domains/Enterprise_Org/Enterprise-Common-Domain/3.1.0
+
+##### Application Logging Standards
+##### Guidelines
+Here are the standards and guide for application logs. TBD with sample and SO applications standards.
+##### Confluence Link
+https://confluence.fmr.com/spaces/AP140015/pages/780285511/Guide+-+Logging
+
+##### Observability
+##### Guidelines
+Datadog. Splunk - TBD
+##### Confluence Link
+https://confluence.fmr.com/spaces/PR105609/pages/542449657/DATADOG#DATADOG-INFRASTRUCTUREDASHBOARD
+
+
+## Topic
+### Dependency Management Guidelines
+###Description
+No Description yet. Coming soon..
+
+
+## Topic
+### Version Control Practices
+###Description
+No Description yet. Coming soon..
+#### Sub Topic
+##### GIT
+##### repo classifications
+##### Commit Guidelines
+##### Branching Strategy
+
+
+## Topic
+### Code Review & Quality
+###Description
+Guidelines for the code reviews, code quality and quality metrics 
+#### Sub Topic
+##### Code Documentation
+##### Guidelines
+The application team should document such as functional or flow chart for all the complex use cases and publish it to confluence.
+##### Confluence Link
+No
+
+##### Code review guidelines
+##### Guidelines
+Please follow these guidelines for the code reviews
+##### Confluence Link
+https://confluence.fmr.com/spaces/PR172802/pages/938195740/Code+Review+Guidelines
+
+##### Governance gate
+##### Guidelines
+All applications must run governance gates to check if all security checks are passed using Jenkins core pipeline.
+##### Confluence Link
+https://confluence.fmr.com/spaces/HWY/pages/1490253550/Governance+Gate+Security
+
+##### Code quality
+##### Guidelines
+SonarQube is a Static Code Analysis Tool that does continuous inspection of source code and provides reports for the code quality of your project.
+##### Confluence Link
+https://confluence.fmr.com/spaces/AP128478/pages/1230169822/SONAR+Code+Quality+Standard
+##### Guidelines
+SonarQube reports for applications can be found here
+Note: Review SONAR report helps us to discover application code cognitive complexity, Code smells, security, bug, duplication and test coverage.
+##### Confluence Link
+https://sonar.fmr.com/sonar/projects
+
+
+## Topic
+### CI/CD Best Practices
+###Description
+No Description yet. Coming soon..
+
+
+## Topic
+### Testing Standards
+###Description
+Solution Office Comprehensive guide on Quality Engineering (QE) best practices. This document outlines essential standards, tools, and strategies to ensure high-quality software development and testing processes. Below, you’ll find detailed sections covering various aspects of QE, including unit testing, application testing strategies, API testing, and more.
+#### Sub Topic
+##### Approved Testing tools and Frameworks
+##### Guidelines
+List of testing tools and frameworks for QE :
+##### Confluence Link
+https://sp.fmrcloud.com/sites/WIQE/SitePages/Live-list-of-confirmed-tools-&-frameworks.aspx?pageId=1537852523
+
+##### WI Quality Best Practices
+##### Guidelines
+Comprehensive list of WI Quality & Best Practices :
+##### Confluence Link
+https://sp.fmrcloud.com/sites/WIQE/SitePages/Standards-&-Best-Practices.aspx
+##### Guidelines
+Definition of Done for Quality Engineering & Testing :
+##### Confluence Link
+No
+##### Guidelines
+Unit Testing guidelines :
+##### Confluence Link
+No
+##### Guidelines
+Functional Testing guidelines :
+##### Confluence Link
+No
+##### Guidelines
+User Acceptance Testing guidelines :
+##### Confluence Link
+No
+
+##### API Testing Standards
+##### Guidelines
+ECS provided guidelines for API testing :
+##### Confluence Link
+https://confluence.fmr.com/spaces/EAPS/pages/1565332776/API+Testing
+
+##### User Interface Testing Standards
+##### Guidelines
+Web Experience Guidelines for UI testing :
+##### Confluence Link
+https://confluence.fmr.com/spaces/PR172802/pages/1510352615/Web+Experience+UI+Testing+Guideline
+
+##### Penetration Testing Standards(~TODO: Connect with Gunjan)
+##### Guidelines
+placeholder: EDX provided guidelines for PEN testing :
+##### Confluence Link
+https://confluence.fmr.com/spaces/PR172802/pages/1510352615/Web+Experience+UI+Testing+Guideline
+
+
+## Topic
+### Software Release Guidelines
+###Description
+No Description yet. Coming soon..
+
+
+
+
+# Salesforce
+## Point of Contact
+Heidi Wilson, Punnet Mehta
+##Description
+No Description Yet. Coming Soon..
+
+
+
+
+# Work Intake
+## Point of Contact
+TBD
+##Description
+Here are the guidelines for the work intake. 
+## Topic
+### Work Intake Overview
+#### Guidelines
+This presentation covers the overall work intake initiative and prioritization framework
+## Confluence Link
+https://sp.fmrcloud.com/:p:/r/sites/OneSolutionsOffice/_layouts/15/Doc.aspx?sourcedoc=%7B70BD4B11-0EF2-4D66-BF1A-E772427E69ED%7D&file=Intake%20and%20Prioritization.pptx&action=edit&mobileredirect=true
+
+
+## Topic
+### Work Intake request
+#### Guidelines
+This document covers the process on how to open a request to Solutions Office.
+## Confluence Link
+https://sp.fmrcloud.com/:w:/r/sites/OneSolutionsOffice/_layouts/15/Doc.aspx?sourcedoc=%7B6D534B0E-81D4-47A9-A84C-D209681D2B61%7D&file=ONE%20SO%20Intake%20Procedures.docx&action=default&mobileredirect=true
+
+
+## Topic
+### Work Intake Routing
+#### Guidelines
+This excel provides list of links to Jira boards and point of contacts for any questions related to specific work prioritization.
+## Confluence Link
+https://sp.fmrcloud.com/:x:/r/sites/OneSolutionsOffice/_layouts/15/Doc.aspx?sourcedoc=%7BB6CF89B8-2C31-4E86-8DFE-89A0FACA4DE3%7D&file=ONE%20SO%20Intake%20Documentation.xlsx&action=default&mobileredirect=true
+
+
